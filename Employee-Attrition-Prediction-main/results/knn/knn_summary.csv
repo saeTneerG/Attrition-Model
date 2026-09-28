@@ -1,0 +1,2 @@
+Model_Type,Best_K,Best_Weight,SMOTE_Used,CV_Macro_F1,Test_Accuracy,Test_Macro_F1,Test_ROC_AUC
+SMOTE,48,uniform,True,0.5833101082332919,65.09,58.59,72.46

@@ -1,0 +1,5 @@
+Configuration,CV_Macro_F1
+Baseline - Uniform,0.5742386053381977
+Baseline - Distance,0.5741924285556311
+SMOTE - Uniform,0.5833101082332919
+SMOTE - Distance,0.5799669943614865

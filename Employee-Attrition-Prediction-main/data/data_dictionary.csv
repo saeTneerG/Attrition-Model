@@ -1,0 +1,30 @@
+column,type,description
+employee_id,string,Unique employee id
+age,int,Age in years
+generation,string,Gen Z / Millennial / Gen X / Boomer (derived from age)
+gender,string,Male / Female / Other
+department,string,"Department (Engineering, Product, Sales, Operations, ...)"
+job_level,string,Junior / Mid / Senior / Lead / Manager / Director
+is_manager,int,1 if a people-manager role (Lead/Manager/Director)
+tenure_years,float,Years at the company
+salary_usd,int,Annual salary (USD)
+salary_vs_market_pct,float,"Salary vs market benchmark (%), negative = underpaid"
+work_arrangement,string,remote / hybrid / onsite  [MODERN]
+rto_mandate,int,1 if company imposed a return-to-office mandate in last year  [MODERN]
+days_in_office_required,int,Required in-office days per week (0-5)  [MODERN]
+commute_minutes,int,One-way commute time (minutes)
+prefers_remote,int,1 if employee prefers remote work  [MODERN]
+flexibility_importance,int,How much the employee values flexibility (1-5)  [MODERN]
+ai_tools_adoption,string,AI/copilot usage: none / light / regular / power  [MODERN]
+weekly_hours,int,Average hours worked per week
+after_hours_work,int,1 if regularly works after hours
+burnout_score,float,Self-reported burnout (1-10)
+manager_relationship_score,int,Quality of relationship with manager (1-5)
+manager_1on1_per_month,int,Number of 1:1s with manager per month
+engagement_score,int,Engagement survey score (0-100)
+promotions_last_2y,int,Promotions in the last 2 years
+career_growth_score,int,Perceived career growth opportunity (1-5)
+recent_layoff_round,int,1 if company had a layoff round recently (survivor effect)  [MODERN]
+team_size,int,Size of immediate team
+attrition_reason,string,"Reason if left (rto_inflexibility, poor_management, burnout, better_offer_pay, career_growth, involuntary_layoff, relocation, other) else stayed"
+attrition,int,"TARGET: 1 if employee left within 12 months, else 0"
