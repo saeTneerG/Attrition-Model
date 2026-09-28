@@ -1,2 +1,2 @@
-Model_Type,Feature_Set,N_Features,Best_Var_Smoothing,CV_Macro_F1,Test_Accuracy,Test_Macro_F1,Test_ROC_AUC
-Baseline,All features,33,0.01,0.6989442020634581,82.57,70.38,80.16
+Model_Type,Feature_Set,N_Features,Best_Var_Smoothing,CV_Macro_F1,CV_F1_No_Attrition,CV_F1_Attrition,Test_Accuracy,Test_Macro_F1,Test_F1_No_Attrition,Test_F1_Attrition,Test_ROC_AUC
+Baseline,All features,33,0.01,0.6989442020634581,0.893863596577501,0.5040248075494151,82.57,70.38,89.38,51.38,80.16
